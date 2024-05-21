@@ -1,0 +1,57 @@
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Efecto Melito */
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Estilos dentro de la tarjeta */
+.table {
+    margin-bottom: 0;
+}
+
+.table th,
+.table td {
+    border-color: #dee2e6;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom-color: #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
